@@ -21,18 +21,18 @@ namespace GildedTros.Test
 		}
 
 		[Fact]
-		public void TestQuality_DegradeFourTimesAsFastBeforeSellByDay()
+		public void TestQuality_DegradeFourTimesAsFastAfterSellByDay()
 		{
 			var items = new List<Item>
 			{
-				new Item { Name = "Duplicate Code", SellIn = 4, Quality = 5 }
+				new Item { Name = "Duplicate Code", SellIn = 0, Quality = 5 }
 			};
 			var app = new InventoryManager(items);
 
 			app.UpdateQuality();
 
 			Assert.Equal(1, items[0].Quality);
-			Assert.Equal(3, items[0].SellIn);
+			Assert.Equal(-1, items[0].SellIn);
 		}
 
 		[Fact]

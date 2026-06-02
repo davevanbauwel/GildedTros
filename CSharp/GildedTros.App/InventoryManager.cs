@@ -37,6 +37,10 @@ namespace GildedTros.App
 				case "Backstage passes for Re:factor":
 				case "Backstage passes for HAXX":
 					return new BackStagePassesStrategy();
+				case "Duplicate Code":
+				case "Long Methods":
+				case "Ugly Variable Names":
+					return new SmellyItemsStrategy();
 				default:
 					return new NormalItemStrategy();
 			}
