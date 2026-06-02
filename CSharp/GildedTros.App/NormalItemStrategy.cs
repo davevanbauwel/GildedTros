@@ -2,8 +2,8 @@
 {
     public class NormalItemStrategy : IItemUpdateStrategy
     {
-        int IncreaseQualityBeforeSellDay => 1;
-        int IncreaseQualityAfterSellDay => 2;  
+        int DecreaseQualityBeforeSellDay => 1;
+        int DecreaseQualityAfterSellDay => 2;  
 
         public void Update(Item item)
         {
@@ -16,11 +16,11 @@
 
             if (item.SellIn < 0)
             {
-                item.Quality -= IncreaseQualityAfterSellDay;
+                item.Quality -= DecreaseQualityAfterSellDay;
 			}
             else
             {
-                item.Quality -= IncreaseQualityBeforeSellDay;
+                item.Quality -= DecreaseQualityBeforeSellDay;
             }
         }
     }

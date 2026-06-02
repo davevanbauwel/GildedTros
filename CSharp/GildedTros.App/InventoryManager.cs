@@ -25,6 +25,11 @@ namespace GildedTros.App
 
         private IItemUpdateStrategy MatchStrategyByName(string name)
         {
+			if (name == "Good Wine")
+			{
+				return new GoodWineStrategy();
+			}
+
 			return new NormalItemStrategy();
         }
 
