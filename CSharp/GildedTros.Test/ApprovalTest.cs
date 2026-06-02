@@ -1,11 +1,10 @@
-﻿using System;
-using System.IO;
-using System.Text;
-using ApprovalTests;
+﻿using ApprovalTests;
 using ApprovalTests.Reporters;
+using GildedTros.App;
+using System.Text;
 using Xunit;
 
-namespace GildedTros.App
+namespace GildedTros.Test
 {
     [UseReporter(typeof(DiffReporter))]
     public class ApprovalTest

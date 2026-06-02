@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace GildedTros.App
 {
-    class Program
+    public class Program
     {
         public static void Main(string[] args)
         {
@@ -24,7 +24,7 @@ namespace GildedTros.App
                 new Item {Name = "Ugly Variable Names", SellIn = 3, Quality = 6}
             };
 
-            var app = new GildedTros(Items);
+            var app = new InventoryManager(Items);
 
 
             for (var i = 0; i < 31; i++)

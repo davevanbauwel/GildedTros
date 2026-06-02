@@ -1,9 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30907.101
+# Visual Studio Version 18
+VisualStudioVersion = 18.2.11415.280 d18.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GildedTros.App", "GildedTros.App\GildedTros.App.csproj", "{37C9D9B5-867E-4905-926C-19ED64D89B89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GildedTros.Test", "GildedTros.Test\GildedTros.Test.csproj", "{F14075CC-0B90-4D15-9A42-D574D7A3C456}"
+	ProjectSection(ProjectDependencies) = postProject
+		{37C9D9B5-867E-4905-926C-19ED64D89B89} = {37C9D9B5-867E-4905-926C-19ED64D89B89}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +20,10 @@ Global
 		{37C9D9B5-867E-4905-926C-19ED64D89B89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37C9D9B5-867E-4905-926C-19ED64D89B89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37C9D9B5-867E-4905-926C-19ED64D89B89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F14075CC-0B90-4D15-9A42-D574D7A3C456}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F14075CC-0B90-4D15-9A42-D574D7A3C456}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F14075CC-0B90-4D15-9A42-D574D7A3C456}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F14075CC-0B90-4D15-9A42-D574D7A3C456}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
