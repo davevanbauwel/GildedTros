@@ -23,9 +23,9 @@ B-DAWG Keychain, -1, 80
 Backstage passes for Re:factor, 14, 21
 Backstage passes for Re:factor, 9, 50
 Backstage passes for HAXX, 4, 50
-Duplicate Code, 2, 5
-Long Methods, 2, 5
-Ugly Variable Names, 2, 5
+Duplicate Code, 2, 4
+Long Methods, 2, 4
+Ugly Variable Names, 2, 4
 
 -------- day 2 --------
 name, sellIn, quality
@@ -37,9 +37,9 @@ B-DAWG Keychain, -1, 80
 Backstage passes for Re:factor, 13, 22
 Backstage passes for Re:factor, 8, 50
 Backstage passes for HAXX, 3, 50
-Duplicate Code, 1, 4
-Long Methods, 1, 4
-Ugly Variable Names, 1, 4
+Duplicate Code, 1, 2
+Long Methods, 1, 2
+Ugly Variable Names, 1, 2
 
 -------- day 3 --------
 name, sellIn, quality
@@ -51,9 +51,9 @@ B-DAWG Keychain, -1, 80
 Backstage passes for Re:factor, 12, 23
 Backstage passes for Re:factor, 7, 50
 Backstage passes for HAXX, 2, 50
-Duplicate Code, 0, 3
-Long Methods, 0, 3
-Ugly Variable Names, 0, 3
+Duplicate Code, 0, 0
+Long Methods, 0, 0
+Ugly Variable Names, 0, 0
 
 -------- day 4 --------
 name, sellIn, quality
@@ -65,9 +65,9 @@ B-DAWG Keychain, -1, 80
 Backstage passes for Re:factor, 11, 24
 Backstage passes for Re:factor, 6, 50
 Backstage passes for HAXX, 1, 50
-Duplicate Code, -1, 1
-Long Methods, -1, 1
-Ugly Variable Names, -1, 1
+Duplicate Code, -1, 0
+Long Methods, -1, 0
+Ugly Variable Names, -1, 0
 
 -------- day 5 --------
 name, sellIn, quality
@@ -76,7 +76,7 @@ Good Wine, -3, 8
 Elixir of the SOLID, 0, 2
 B-DAWG Keychain, 0, 80
 B-DAWG Keychain, -1, 80
-Backstage passes for Re:factor, 10, 25
+Backstage passes for Re:factor, 10, 26
 Backstage passes for Re:factor, 5, 50
 Backstage passes for HAXX, 0, 50
 Duplicate Code, -2, 0
@@ -90,7 +90,7 @@ Good Wine, -4, 10
 Elixir of the SOLID, -1, 0
 B-DAWG Keychain, 0, 80
 B-DAWG Keychain, -1, 80
-Backstage passes for Re:factor, 9, 27
+Backstage passes for Re:factor, 9, 28
 Backstage passes for Re:factor, 4, 50
 Backstage passes for HAXX, -1, 0
 Duplicate Code, -3, 0
@@ -104,7 +104,7 @@ Good Wine, -5, 12
 Elixir of the SOLID, -2, 0
 B-DAWG Keychain, 0, 80
 B-DAWG Keychain, -1, 80
-Backstage passes for Re:factor, 8, 29
+Backstage passes for Re:factor, 8, 30
 Backstage passes for Re:factor, 3, 50
 Backstage passes for HAXX, -2, 0
 Duplicate Code, -4, 0
@@ -118,7 +118,7 @@ Good Wine, -6, 14
 Elixir of the SOLID, -3, 0
 B-DAWG Keychain, 0, 80
 B-DAWG Keychain, -1, 80
-Backstage passes for Re:factor, 7, 31
+Backstage passes for Re:factor, 7, 32
 Backstage passes for Re:factor, 2, 50
 Backstage passes for HAXX, -3, 0
 Duplicate Code, -5, 0
@@ -132,7 +132,7 @@ Good Wine, -7, 16
 Elixir of the SOLID, -4, 0
 B-DAWG Keychain, 0, 80
 B-DAWG Keychain, -1, 80
-Backstage passes for Re:factor, 6, 33
+Backstage passes for Re:factor, 6, 34
 Backstage passes for Re:factor, 1, 50
 Backstage passes for HAXX, -4, 0
 Duplicate Code, -6, 0
@@ -146,7 +146,7 @@ Good Wine, -8, 18
 Elixir of the SOLID, -5, 0
 B-DAWG Keychain, 0, 80
 B-DAWG Keychain, -1, 80
-Backstage passes for Re:factor, 5, 35
+Backstage passes for Re:factor, 5, 37
 Backstage passes for Re:factor, 0, 50
 Backstage passes for HAXX, -5, 0
 Duplicate Code, -7, 0
@@ -160,7 +160,7 @@ Good Wine, -9, 20
 Elixir of the SOLID, -6, 0
 B-DAWG Keychain, 0, 80
 B-DAWG Keychain, -1, 80
-Backstage passes for Re:factor, 4, 38
+Backstage passes for Re:factor, 4, 40
 Backstage passes for Re:factor, -1, 0
 Backstage passes for HAXX, -6, 0
 Duplicate Code, -8, 0
@@ -174,7 +174,7 @@ Good Wine, -10, 22
 Elixir of the SOLID, -7, 0
 B-DAWG Keychain, 0, 80
 B-DAWG Keychain, -1, 80
-Backstage passes for Re:factor, 3, 41
+Backstage passes for Re:factor, 3, 43
 Backstage passes for Re:factor, -2, 0
 Backstage passes for HAXX, -7, 0
 Duplicate Code, -9, 0
@@ -188,7 +188,7 @@ Good Wine, -11, 24
 Elixir of the SOLID, -8, 0
 B-DAWG Keychain, 0, 80
 B-DAWG Keychain, -1, 80
-Backstage passes for Re:factor, 2, 44
+Backstage passes for Re:factor, 2, 46
 Backstage passes for Re:factor, -3, 0
 Backstage passes for HAXX, -8, 0
 Duplicate Code, -10, 0
@@ -202,7 +202,7 @@ Good Wine, -12, 26
 Elixir of the SOLID, -9, 0
 B-DAWG Keychain, 0, 80
 B-DAWG Keychain, -1, 80
-Backstage passes for Re:factor, 1, 47
+Backstage passes for Re:factor, 1, 49
 Backstage passes for Re:factor, -4, 0
 Backstage passes for HAXX, -9, 0
 Duplicate Code, -11, 0
