@@ -17,7 +17,7 @@ namespace GildedTros.App
             foreach (var item in Items)
             {
                 var strategy = MatchStrategyByName(item.Name);
-                strategy.Update(item);
+                strategy?.Update(item);
 
             }
 
@@ -25,12 +25,21 @@ namespace GildedTros.App
 
         private IItemUpdateStrategy MatchStrategyByName(string name)
         {
-			if (name == "Good Wine")
+			if (name == "B-DAWG Keychain")
 			{
-				return new GoodWineStrategy();
+				return null;
 			}
 
-			return new NormalItemStrategy();
+			switch (name)
+			{
+				case "Good Wine":
+					return new GoodWineStrategy();
+				case "Backstage passes for Re:factor":
+				case "Backstage passes for HAXX":
+					return new BackStagePassesStrategy();
+				default:
+					return new NormalItemStrategy();
+			}
         }
 
         /*public void UpdateQuality()
