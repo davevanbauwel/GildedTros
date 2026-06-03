@@ -13,17 +13,14 @@ namespace GildedTros.App
 
         public void UpdateQuality()
         {
-
             foreach (var item in Items)
             {
                 var strategy = MatchStrategyByName(item.Name);
                 strategy?.Update(item);
-
             }
-
         }
 
-        private IItemUpdateStrategy MatchStrategyByName(string name)
+        IItemUpdateStrategy MatchStrategyByName(string name)
         {
 			if (name == "B-DAWG Keychain")
 			{
